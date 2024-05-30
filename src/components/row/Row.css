@@ -1,0 +1,87 @@
+.row-wrapper {
+    color: #fff;
+    margin-bottom: 5vh;
+    z-index: 3;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row-title {
+    font-size: 1.4vw;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.row-card {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    color: #fff;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    flex: 1;
+}
+
+.row-card::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-arrow {
+    width: 3rem;
+    height: 135px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.scroll-arrow:hover{
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.pagination-indicator {
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+.pagination-dot {
+    width: 10px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.289);; 
+    border-radius: 1px;
+    margin: 0 2px;
+    transition: background-color 0.3s;
+}
+
+.pagination-dot.active {
+    background-color: rgba(255, 255, 255, 0.751); /* Filled color */
+}

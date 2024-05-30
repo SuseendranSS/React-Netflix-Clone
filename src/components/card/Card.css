@@ -1,0 +1,7 @@
+.card-poster{
+    height: 135px;
+    border-radius: 5px;
+    object-fit: contain;
+    margin-right: 10px;
+    width : 231px;
+}
